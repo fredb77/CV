@@ -1,0 +1,52 @@
+
+body {
+    background-color: #EAE2B7;
+  }
+
+  footer {
+    height: 155px;
+    background-color: #003049;
+    padding: 10px;
+  }
+
+  img {
+    border: 1px black solid;
+  }
+
+  .jumbotron {
+    background-color: #003049;
+  }
+
+  #icon {
+      font-size: 35px;
+  }
+
+  a{
+    color: #66757F;
+    }
+
+  a:hover {
+    color: #CCD6DD;
+  }
+
+  #c1 {
+    font-size: 14px;
+  }
+
+  #c2 {
+    font-size: 14px;
+  }
+
+  #c3 {
+    font-size: 14px;
+    background-color: #FCBF49;
+  }
+
+  #white-txt {
+    color: white;
+  }
+
+  .text-muted {
+      
+      color: white;
+  }
