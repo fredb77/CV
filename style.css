@@ -31,9 +31,14 @@
     background-color: #003049;
   }
 
+  row {
+    height: auto;
+  }
+
   .col-sm-4 {
     padding-top: 5px;
     padding-bottom: 5px;
+    height: 100%;
   }
 
   #icon {
@@ -50,7 +55,8 @@
 
   #c1 {
     font-size: 14px;
-    background-color: #FCBF49;
+    /*background-color: #FCBF49;*/
+    background-color: #B2C6A2;
   }
 
   #c2 {
@@ -59,7 +65,7 @@
 
   #c3 {
     font-size: 14px;
-    
+    background-color: #C3FCF1;
   }
 
   #white-txt {
