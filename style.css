@@ -17,6 +17,10 @@
     text-align: center;
   }
 
+  #top {
+    text-align: left;
+  }
+
   img {
     border: 1px black solid;
   }
@@ -31,22 +35,22 @@
     background-color: #003049;
   }
 
-  row {
-    height: auto;
-  }
-
   .col-sm-4 {
     padding-top: 5px;
     padding-bottom: 5px;
-    height: 100%;
   }
 
   #icon {
       font-size: 35px;
   }
 
+  #icon2 {
+    font-size: 18px;
+  }
+
   a{
-    color: #CCD6DD;
+    color: silver;
+    /*color: #CCD6DD;*/
     }
 
   a:hover {
@@ -75,4 +79,20 @@
   .text-muted {
       
       color: white;
+  }
+
+  #info {
+    color: white;
+    font-size: 14px;
+  }
+
+  #per-txt {
+    color: silver;
+    font-size: 16px;
+  }
+
+  #per-txt-icon {
+    text-align: right;
+    color: silver;
+    font-size: 16px;
   }
