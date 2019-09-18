@@ -1,6 +1,6 @@
 
   body {
-    background-color: #EAE2B7;
+    background-color: #FFF7D6;
   }
 
   footer {
@@ -36,6 +36,7 @@
   }
 
   .col-sm-4 {
+    border-radius: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -60,7 +61,7 @@
   #c1 {
     font-size: 14px;
     /*background-color: #FCBF49;*/
-    background-color: #B2C6A2;
+    background-color: #00C6B3;
   }
 
   #c2 {
@@ -69,7 +70,6 @@
 
   #c3 {
     font-size: 14px;
-    background-color: #C3FCF1;
   }
 
   #white-txt {
