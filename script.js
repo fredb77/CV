@@ -10,8 +10,6 @@ fetch("https://api.github.com/users/fredb77/repos")
     var info = "";
 
     for(i = 0; i < data.length; i++){
-
-        console.log(data[i].name);
         
         // hämtar datan från github
         info +=  
