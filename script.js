@@ -1,9 +1,11 @@
 
+// requestar github api
 fetch("https://api.github.com/users/fredb77/repos")
 .then(function(resp) {
     return resp.json();
 })
 
+// funktion som loopar alla repos och skriver ut dom
 .then(function(data) {
     var info = "";
 
@@ -11,16 +13,12 @@ fetch("https://api.github.com/users/fredb77/repos")
 
         console.log(data[i].name);
         
-        // sorterar efter yngst först
-        //data.sort((a, b) => parseFloat(a.age) - parseFloat(b.age));
-
-        // hämtar datan från json
+        // hämtar datan från github
         info +=  
                 "<li><a target='_blank' href='https://github.com/fredb77/" + data[i].name + "'>" + data[i].name + "</a></li>";
 
         // skriver ut datan
         document.getElementById("repos").innerHTML = info;
-        
     }
 })
 // skriver ut felmeddelande
