@@ -105,3 +105,16 @@
   ul {
     list-style: none;
   }
+
+  #repos {
+    padding: 0px;
+    margin-left: 10px;
+  }
+
+  #repos a {
+    color: white;
+  }
+
+  #repos a:hover {
+    color: #003049;
+  }
